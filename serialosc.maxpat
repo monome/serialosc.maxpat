@@ -38,7 +38,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1062.0, 258.0, 65.0, 19.0 ],
+					"patching_rect" : [ 720.0, 426.0, 65.0, 19.0 ],
 					"text" : "r #0infocus"
 				}
 
@@ -466,7 +466,7 @@
 					}
 ,
 					"text" : "pattr @bindto deviceid @invisible 1",
-					"varname" : "u786000519"
+					"varname" : "u846001655"
 				}
 
 			}
@@ -928,7 +928,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 432.0, 510.0, 75.0, 17.0 ],
-									"presentation_rect" : [ 423.0, 511.0, 0.0, 0.0 ],
 									"text" : "#1/tilt/set 0 0"
 								}
 
@@ -6167,7 +6166,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 36.0, 708.0, 59.5, 19.0 ],
 					"text" : "autopattr",
-					"varname" : "u563000610"
+					"varname" : "u280001746"
 				}
 
 			}
@@ -7790,7 +7789,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]

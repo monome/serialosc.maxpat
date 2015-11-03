@@ -34,7 +34,7 @@ function rescan() {
 	outlet(3, "clear");
 	outlet(3, "append", "none");
 	outlet(3, "textcolor", 1.0, 1.0, 1.0, 0.3);
-	
+		
 	ports = [];
 	devices = [];
 	serials = [];
@@ -87,6 +87,7 @@ function menu(i) {
 		connected = serials[i-1];
 	}
 	else {
+		rescan();
 		post(ports);
 		post(serials);
 		if(connected)

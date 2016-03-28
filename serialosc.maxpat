@@ -3,9 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 6,
-			"architecture" : "x86",
+			"minor" : 2,
+			"revision" : 0,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -44,7 +44,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 286.5, 175.0, 39.0, 22.0 ],
-					"presentation_rect" : [ 285.0, 176.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "gate"
 				}
@@ -125,9 +124,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
-							"architecture" : "x86",
+							"minor" : 2,
+							"revision" : 0,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -977,6 +976,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1230,12 +1238,12 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "serialosc.js",
-				"bootpath" : "~/Work/libs/serialosc.maxpat",
+				"bootpath" : "~/Documents/repositories/serialosc.maxpat",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

@@ -1,4 +1,4 @@
 serialosc.maxpat
 ================
 
-serialosc server for maxmsp enabling connection to monome grids and arcs
+serialosc server for Max/MSP enabling connection to monome grids and arcs

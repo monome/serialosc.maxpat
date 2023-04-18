@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 51.0, 100.0, 1338.0, 711.0 ],
+		"rect" : [ 51.0, 100.0, 848.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,29 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-63",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 686.0, 73.0, 22.0 ],
-					"text" : "print rot"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-62",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 116.5, 635.5, 145.0, 22.0 ],
-					"text" : "route /sys/rotation"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-52",
 					"maxclass" : "message",
@@ -898,12 +875,12 @@
 					"fontname" : "Andale Mono",
 					"fontsize" : 12.0,
 					"id" : "obj-24",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 768.0, 256.0, 433.0, 62.0 ],
+					"patching_rect" : [ 768.0, 256.0, 455.0, 49.0 ],
 					"text" : "/example/grid/led/level/map 0 0 2 11 3 8 14 8 2 9 12 0 7 0 0 6 3 0 9 14 5 10 11 4 12 13 12 14 11 7 3 9 12 2 10 3 4 3 4 9 1 8 1 7 11 7 7 6 15 1 7 10 10 5 7 14 9 1 1 15 5 12 6 9 11 11"
 				}
 
@@ -1213,7 +1190,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "serialosc.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int", "", "", "", "" ],
@@ -1227,7 +1204,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1245,14 +1222,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
 					"order" : 1,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"order" : 2,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1651,13 +1620,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-56", 1 ],
 					"source" : [ "obj-60", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"source" : [ "obj-62", 0 ]
 				}
 
 			}

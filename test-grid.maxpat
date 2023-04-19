@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 51.0, 100.0, 848.0, 711.0 ],
+		"openrect" : [ 51.0, 100.0, 1340.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,7 +31,7 @@
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
+		"devicewidth" : 1340.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
@@ -880,7 +880,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 768.0, 256.0, 455.0, 49.0 ],
+					"patching_rect" : [ 768.0, 256.0, 462.0, 49.0 ],
 					"text" : "/example/grid/led/level/map 0 0 2 11 3 8 14 8 2 9 12 0 7 0 0 6 3 0 9 14 5 10 11 4 12 13 12 14 11 7 3 9 12 2 10 3 4 3 4 9 1 8 1 7 11 7 7 6 15 1 7 10 10 5 7 14 9 1 1 15 5 12 6 9 11 11"
 				}
 
